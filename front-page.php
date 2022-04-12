@@ -16,10 +16,10 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col">
-                            <img alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page" src="<?php bloginfo('template_directory'); ?>/assets/imgs/about-1.jpg" class="w-100 rounded shadow">
+                            <img alt="alt text here..." src="<?php bloginfo('template_directory'); ?>/assets/imgs/about-1.jpg" class="w-100 rounded shadow">
                         </div>
                         <div class="col">
-                            <img alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page" src="<?php bloginfo('template_directory'); ?>/assets/imgs/about-2.jpg" class="w-100 rounded shadow">
+                            <img alt="alt text here..." src="<?php bloginfo('template_directory'); ?>/assets/imgs/about-2.jpg" class="w-100 rounded shadow">
                         </div>
                     </div>                  
                 </div>
@@ -34,10 +34,10 @@
                 <div class="col-md-6 order-1 order-sm-first">
                     <div class="row">
                         <div class="col">
-                            <img alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page" src="<?php bloginfo('template_directory'); ?>/assets/imgs/about-3.jpg" class="w-100 rounded shadow">
+                            <img alt="alt text here..." src="<?php bloginfo('template_directory'); ?>/assets/imgs/about-3.jpg" class="w-100 rounded shadow">
                         </div>
                         <div class="col">
-                            <img alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page" src="<?php bloginfo('template_directory'); ?>/assets/imgs/about-4.jpg" class="w-100 rounded shadow">
+                            <img alt="alt text here..." src="<?php bloginfo('template_directory'); ?>/assets/imgs/about-4.jpg" class="w-100 rounded shadow">
                         </div>
                     </div>                  
                 </div>
@@ -55,7 +55,7 @@
                 <div class="col-md-6 mb-4">
                     <a href="javascrip:void(0)" class="custom-list">
                         <div class="img-holder">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/dish-1.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/dish-1.jpg" alt="alt text here...">
                         </div>
                         <div class="info">
                             <div class="head clearfix">
@@ -80,7 +80,7 @@
                 <div class="col-md-6 mb-4">
                     <a href="javascrip:void(0)" class="custom-list">
                         <div class="img-holder">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/dish-2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/dish-2.jpg" alt="alt text here...">
                         </div>
                         <div class="info">
                             <div class="head clearfix">
@@ -96,7 +96,7 @@
                 <div class="col-md-6 mb-4">
                     <a href="javascrip:void(0)" class="custom-list">
                         <div class="img-holder">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/dish-3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/dish-3.jpg" alt="alt text here...">
                         </div>
                         <div class="info">
                             <div class="head clearfix">
@@ -112,7 +112,7 @@
                 <div class="col-md-6 mb-4">
                     <a href="javascrip:void(0)" class="custom-list">
                         <div class="img-holder">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/dish-4.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/dish-4.jpg" alt="alt text here...">
                         </div>
                         <div class="info">
                             <div class="head clearfix">
@@ -128,7 +128,7 @@
                 <div class="col-md-6 mb-4">
                     <a href="javascrip:void(0)" class="custom-list">
                         <div class="img-holder">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/dish-5.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/dish-5.jpg" alt="alt text here...">
                         </div>
                         <div class="info">
                             <div class="head clearfix">
@@ -144,7 +144,7 @@
                 <div class="col-md-6 mb-4">
                     <a href="javascrip:void(0)" class="custom-list">
                         <div class="img-holder">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/dish-6.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/dish-6.jpg" alt="alt text here...">
                         </div>
                         <div class="info">
                             <div class="head clearfix">
@@ -252,40 +252,37 @@
             <div class="row">
                 <div class="col-md-4 my-3">
                     <div class="team-wrapper text-center">
-                        <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/chef-1.jpg" class="circle-120 rounded-circle mb-3 shadow" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/chef-1.jpg" class="circle-120 rounded-circle mb-3 shadow" alt="alt text here...">
                         <h5 class="my-3">Brian Scott</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente suscipit, odio nulla reiciendis!</p>
                         <h6 class="socials mt-3">
                             <a href="javascript:void(0)" class="px-2"><i class="ti-facebook"></i></a>
                             <a href="javascript:void(0)" class="px-2"><i class="ti-twitter"></i></a>
                             <a href="javascript:void(0)" class="px-2"><i class="ti-instagram"></i></a>
-                            <a href="javascript:void(0)" class="px-2"><i class="ti-google"></i></a>
                         </h6>
                     </div>
                 </div>
                 <div class="col-md-4 my-3">
                     <div class="team-wrapper text-center">
-                        <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/chef-2.jpg" class="circle-120 rounded-circle mb-3 shadow" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/chef-2.jpg" class="circle-120 rounded-circle mb-3 shadow" alt="alt text here...">
                         <h5 class="my-3">Edward Harris</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente suscipit, odio nulla reiciendis!</p>
                         <h6 class="socials mt-3">
                             <a href="javascript:void(0)" class="px-2"><i class="ti-facebook"></i></a>
                             <a href="javascript:void(0)" class="px-2"><i class="ti-twitter"></i></a>
                             <a href="javascript:void(0)" class="px-2"><i class="ti-instagram"></i></a>
-                            <a href="javascript:void(0)" class="px-2"><i class="ti-google"></i></a>
                         </h6>
                     </div>
                 </div>
                 <div class="col-md-4 my-3">
                     <div class="team-wrapper text-center">
-                        <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/chef-3.jpg" class="circle-120 rounded-circle mb-3 shadow" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page">
+                        <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/chef-3.jpg" class="circle-120 rounded-circle mb-3 shadow" alt="alt text here...">
                         <h5 class="my-3">Richard Reb</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente suscipit, odio nulla reiciendis!</p>
                         <h6 class="socials mt-3">
                             <a href="javascript:void(0)" class="px-2"><i class="ti-facebook"></i></a>
                             <a href="javascript:void(0)" class="px-2"><i class="ti-twitter"></i></a>
                             <a href="javascript:void(0)" class="px-2"><i class="ti-instagram"></i></a>
-                            <a href="javascript:void(0)" class="px-2"><i class="ti-google"></i></a>
                         </h6>
                     </div>
                 </div> 
@@ -305,7 +302,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="media align-items-center mb-3">
-                                <img class="mr-3" src="<?php bloginfo('template_directory'); ?>/assets/imgs/avatar.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page">
+                                <img class="mr-3" src="<?php bloginfo('template_directory'); ?>/assets/imgs/avatar.jpg" alt="alt text here...">
                                 <div class="media-body">
                                     <h6 class="mt-1 mb-0">John Doe</h6>
                                     <small class="text-muted mb-0">Business Analyst</small>     
@@ -319,7 +316,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="media align-items-center mb-3">
-                                <img class="mr-3" src="<?php bloginfo('template_directory'); ?>/assets/imgs/avatar-1.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page">
+                                <img class="mr-3" src="<?php bloginfo('template_directory'); ?>/assets/imgs/avatar-1.jpg" alt="alt text here...">
                                 <div class="media-body">
                                     <h6 class="mt-1 mb-0">Maria Garcia</h6>
                                     <small class="text-muted mb-0">Insurance Agent</small>      
@@ -333,7 +330,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="media align-items-center mb-3">
-                                <img class="mr-3" src="<?php bloginfo('template_directory'); ?>/assets/imgs/avatar-2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page">
+                                <img class="mr-3" src="<?php bloginfo('template_directory'); ?>/assets/imgs/avatar-2.jpg" alt="alt text here...">
                                 <div class="media-body">
                                     <h6 class="mt-1 mb-0">Mason Miller</h6>
                                     <small class="text-muted mb-0">Residential Appraiser</small>        
@@ -354,7 +351,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 d-none d-md-block">
-                    <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/contact.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page" class="w-100 rounded shadow">
+                    <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/contact.jpg" alt="alt text here..." class="w-100 rounded shadow">
                 </div>
                 <div class="col-md-6">
                     <form>
