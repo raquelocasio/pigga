@@ -1,11 +1,20 @@
+/* style top menu */
 .topmenu > li {
     display: inline;
     list-style-type: none;
     padding-right: 10px;
 }
 
-
+/* style bottom menu */
 .bottommenu > li {
     display: inline;
     padding-right: 10px;
+}
+
+/* style button for table reservation form */
+input#nf-field-9 {
+    width: 100%;
+    background-color: #BC8C4C;
+    color: white;
+    border-radius: 5px;
 }
