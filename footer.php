@@ -28,7 +28,7 @@
         <div class="container">
             <div class="row align-items-center text-center text-md-left">
                 <div class="col">
-                    <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>, <a href="https://www.devcrud.com" target="_blank">DevCrud</a>  All rights reserved </p> 
+                    <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>, <a href="https://raquelocasio.com" target="_blank">Raquel Ocasio</a>  All rights reserved </p> 
                 </div>
                 <div class="d-none d-md-block">
                     <h6 class="small mb-0">
