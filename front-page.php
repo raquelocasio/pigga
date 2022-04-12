@@ -46,12 +46,52 @@
     </section>
     <!-- End OF About Section -->
 
-    <!-- Service Section -->
+    <!-- Featrued Menu Items Section -->
     <section id="service" class="pattern-style-4 has-overlay">
         <div class="container raise-2">
             <h6 class="section-subtitle text-center">Featured Food</h6>
             <h3 class="section-title mb-6 pb-3 text-center">Special Dishes</h3>
             <div class="row">
+                <!-- <p>testing123</p> -->
+            
+                <!-- display menu items custom post type where featured=true -->
+            <?php
+            $featuredMenu = new WP_Query(
+                array(
+                    'posts_per_page' => 6,
+		            'post_type' => 'menuitem',
+                    'meta_query' => array(
+                        array(
+                            'key'   => 'featured',
+                            'value' => '1',
+                        )
+                    )
+                    )
+                );
+
+                while ($featuredMenu->have_posts()) {
+                    $featuredMenu->the_post(); ?>
+
+                <div class="col-md-6 mb-4">
+                    <a href="javascrip:void(0)" class="custom-list">
+                        <div class="img-holder">
+                        <img src="<?php the_field( 'photo' ); ?>" />
+                        </div>
+                        <div class="info">
+                            <div class="head clearfix">
+                                <h5 class="title float-left"><?php the_field( 'title' ); ?></h5>
+                                <p class="float-right text-primary">$<?php the_field( 'price' ); ?></p>
+                            </div>
+                            <div class="body">
+                                <p><?php the_field( 'description' ); ?></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                    <?php }
+                    ?>
+            
                 <div class="col-md-6 mb-4">
                     <a href="javascrip:void(0)" class="custom-list">
                         <div class="img-holder">
@@ -66,17 +106,9 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing Eos, earum dicta est veniam beatae libero!</p>
                             </div>
                         </div>
-                        <!-- <div class="info">
-                            <div class="head clearfix">
-                                <h5 class="title float-left">Aperiam incidunt dicta</h5>
-                                <p class="float-right text-primary">$25</p>
-                            </div>
-                            <div class="body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing Eos, earum dicta est veniam beatae libero!</p>
-                            </div>
-                        </div> -->
                     </a>
                 </div>
+
                 <div class="col-md-6 mb-4">
                     <a href="javascrip:void(0)" class="custom-list">
                         <div class="img-holder">
@@ -93,6 +125,7 @@
                         </div>
                     </a>
                 </div>
+
                 <div class="col-md-6 mb-4">
                     <a href="javascrip:void(0)" class="custom-list">
                         <div class="img-holder">
@@ -109,6 +142,7 @@
                         </div>
                     </a>
                 </div>
+
                 <div class="col-md-6 mb-4">
                     <a href="javascrip:void(0)" class="custom-list">
                         <div class="img-holder">
@@ -125,6 +159,7 @@
                         </div>
                     </a>
                 </div>
+
                 <div class="col-md-6 mb-4">
                     <a href="javascrip:void(0)" class="custom-list">
                         <div class="img-holder">
@@ -141,6 +176,7 @@
                         </div>
                     </a>
                 </div>
+
                 <div class="col-md-6 mb-4">
                     <a href="javascrip:void(0)" class="custom-list">
                         <div class="img-holder">
@@ -157,6 +193,7 @@
                         </div>
                     </a>
                 </div>
+
             </div>                  
         </div>
     </section>

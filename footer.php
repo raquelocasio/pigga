@@ -7,6 +7,7 @@
                 </div>
                 <div class="col-md-9 text-md-right">
 
+                <!-- bottom nav menu -->
                 <?php wp_nav_menu(
                     array(
                         'theme_location' => 'bottom_menu',

@@ -23,7 +23,7 @@ add_action( 'wp_enqueue_scripts', 'enqueue_custom_scripts' );
 // Add menu support
 add_theme_support('menus');
 
-// Create menu location
+// Create menu locations
 register_nav_menus(
     array(
     'top_menu' => __('Top Menu', 'theme'),
