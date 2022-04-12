@@ -52,7 +52,7 @@
             <h6 class="section-subtitle text-center">Featured Food</h6>
             <h3 class="section-title mb-6 pb-3 text-center">Special Dishes</h3>
             <div class="row">
-                <!-- <p>testing123</p> -->
+                
             
                 <!-- display menu items custom post type where featured=true -->
             <?php
@@ -92,7 +92,7 @@
                     <?php }
                     ?>
             
-                <div class="col-md-6 mb-4">
+                <!-- <div class="col-md-6 mb-4">
                     <a href="javascrip:void(0)" class="custom-list">
                         <div class="img-holder">
                             <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/dish-1.jpg" alt="alt text here...">
@@ -192,7 +192,7 @@
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> -->
 
             </div>                  
         </div>
@@ -207,7 +207,41 @@
             <div class="card bg-light">
                 <div class="card-body px-4 pb-4 text-center">                   
                     <div class="row text-left">
+
+                    <!-- display menu items custom post type where featured=false -->
+                    <?php
+                    $featuredMenu = new WP_Query(
+                        array(
+                            'posts_per_page' => 8,
+                            'post_type' => 'menuitem',
+                            'meta_query' => array(
+                                array(
+                                    'key'   => 'featured',
+                                    'value' => '0',
+                                )
+                            )
+                            )
+                        );
+
+                        while ($featuredMenu->have_posts()) {
+                            $featuredMenu->the_post(); ?>
+
                         <div class="col-md-6 my-4">
+                            <a href="#" class="pb-3 mx-3 d-block text-dark text-decoration-none border border-left-0 border-top-0 border-right-0">
+                                <div class="d-flex">
+                                    <div class="flex-grow-1">
+                                    <?php the_field( 'title' ); ?>
+                                        <p class="mt-1 mb-0"><?php the_field( 'description' ); ?></p>
+                                    </div>
+                                    <h6 class="float-right text-primary">$<?php the_field( 'price' ); ?></h6>
+                                </div>
+                            </a>
+                        </div>
+
+                            <?php }
+                            ?>
+                        
+                        <!-- <div class="col-md-6 my-4">
                             <a href="#" class="pb-3 mx-3 d-block text-dark text-decoration-none border border-left-0 border-top-0 border-right-0">
                                 <div class="d-flex">
                                     <div class="flex-grow-1">
@@ -218,6 +252,7 @@
                                 </div>
                             </a>
                         </div>
+                        
                         <div class="col-md-6 my-4">
                             <a href="#" class="pb-3 mx-3 d-block text-dark text-decoration-none border border-left-0 border-top-0 border-right-0">
                                 <div class="d-flex">
@@ -229,6 +264,7 @@
                                 </div>
                             </a>
                         </div>
+                        
                         <div class="col-md-6 my-4">
                             <a href="#" class="pb-3 mx-3 d-block text-dark text-decoration-none border border-left-0 border-top-0 border-right-0">
                                 <div class="d-flex">
@@ -240,6 +276,7 @@
                                 </div>
                             </a>
                         </div>
+                        
                         <div class="col-md-6 my-4">
                             <a href="#" class="pb-3 mx-3 d-block text-dark text-decoration-none border border-left-0 border-top-0 border-right-0">
                                 <div class="d-flex">
@@ -251,6 +288,7 @@
                                 </div>
                             </a>
                         </div>
+                        
                         <div class="col-md-6 my-4">
                             <a href="#" class="pb-3 mx-3 d-block text-dark text-decoration-none border border-left-0 border-top-0 border-right-0">
                                 <div class="d-flex">
@@ -262,6 +300,7 @@
                                 </div>
                             </a>
                         </div>
+                        
                         <div class="col-md-6 my-4">
                             <a href="#" class="pb-3 mx-3 d-block text-dark text-decoration-none border border-left-0 border-top-0 border-right-0">
                                 <div class="d-flex">
@@ -272,7 +311,8 @@
                                     <h6 class="float-right text-primary">$10</h6>
                                 </div>
                             </a>
-                        </div>
+                        </div> -->
+
                     </div>
                     <a href="#book-table" class="btn btn-primary mt-4">Book A Table</a>
                 </div>
