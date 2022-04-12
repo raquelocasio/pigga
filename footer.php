@@ -17,10 +17,6 @@
                     );
                 ?>
 
-                    <!-- <a href="#" class="px-3"><small class="font-weight-bold">Our Company</small></a>
-                    <a href="#" class="px-3"><small class="font-weight-bold">Our Location</small></a>
-                    <a href="#" class="px-3"><small class="font-weight-bold">Help Center</small></a>
-                    <a href="components.html" class="pl-3"><small class="font-weight-bold">Components</small></a> -->
                 </div>
             </div>
         </div>
@@ -48,16 +44,6 @@
     <!-- End of Page Footer -->
 
     <?php wp_footer(); ?>
-
-    <!-- core  -->
-    <!-- <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script> -->
-
-    <!-- bootstrap affix -->
-    <!-- <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script> -->
-
-    <!-- Pigga js -->
-    <!-- <script src="assets/js/pigga.js"></script> -->
 
 </body>
 </html>
