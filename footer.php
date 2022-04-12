@@ -25,9 +25,9 @@
                 </div>
                 <div class="d-none d-md-block">
                     <h6 class="small mb-0">
-                        <a href="javascript:void(0)" class="px-2"><i class="ti-facebook"></i></a>
-                        <a href="javascript:void(0)" class="px-2"><i class="ti-twitter"></i></a>
-                        <a href="javascript:void(0)" class="px-2"><i class="ti-instagram"></i></a>
+                        <a href="<?php the_field( 'facebook' ); ?>" class="px-2"><i class="ti-facebook"></i></a>
+                        <a href="<?php the_field( 'twitter' ); ?>" class="px-2"><i class="ti-twitter"></i></a>
+                        <a href="<?php the_field( 'instagram' ); ?>" class="px-2"><i class="ti-instagram"></i></a>
                     </h6>
                 </div>
             </div>

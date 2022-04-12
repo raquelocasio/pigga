@@ -7,6 +7,7 @@
     <meta name="author" content="Devcrud">
     <title>Pigga | Free WordPress theme</title>
 
+    <!-- link to stylesheets -->
     <?php wp_head(); ?>
 
     <!-- font icons -->
@@ -24,7 +25,7 @@
             </a>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-primary" href="#home">CALL US : <span class="pl-2 text-muted">(123) 456 7890</span></a>
+                    <a class="nav-link text-primary" href="#home">CALL US : <span class="pl-2 text-muted"><?php the_field( 'phone' ); ?></span></a>
                 </li>                   
             </ul>
         </div>
@@ -72,8 +73,8 @@
     <header class="header">
         <div class="overlay">
             <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/logo.svg" alt="alt text here..." class="logo">
-            <h1 class="subtitle">Welcome To Our Restaurant</h1>
-            <h1 class="title">Really Fresh &amp; Tasty</h1> 
+            <h1 class="subtitle"><?php the_field( 'site_tagline' ); ?></h1>
+            <h1 class="title"><?php the_field( 'site_title' ); ?></h1> 
             <a class="btn btn-primary mt-3" href="#book-table">Book A Table</a> 
         </div>      
     </header>

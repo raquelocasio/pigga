@@ -7,9 +7,9 @@
                 <div class="col-md-6">
                     <h6 class="section-subtitle">Opening Times</h6>
                     <h3 class="section-title">Working Times</h3>
-                    <p class="mb-1 font-weight-bold">Monday - Thursday : <span class="font-weight-normal pl-2 text-muted">7:00 am - 12:00 pm</span></p>
-                    <p class="mb-1 font-weight-bold">Friday - Saturday : <span class="font-weight-normal pl-2 text-muted">7:00 am - Midnight</span></p>
-                    <p class="mb-1 font-weight-bold">Sunday : <span class="font-weight-normal pl-2 text-muted">9:00 am - 12:00 pm</span></p>
+                    <p class="mb-1 font-weight-bold">Monday - Thursday : <span class="font-weight-normal pl-2 text-muted"><?php the_field( 'monday_to_thursday_opening' ); ?> - <?php the_field( 'monday_to_thursday_closing' ); ?></span></p>
+                    <p class="mb-1 font-weight-bold">Friday - Saturday : <span class="font-weight-normal pl-2 text-muted"><?php the_field( 'friday_to_saturday_opening' ); ?> - <?php the_field( 'friday_to_saturday_closing' ); ?></span></p>
+                    <p class="mb-1 font-weight-bold">Sunday : <span class="font-weight-normal pl-2 text-muted"><?php the_field( 'sunday_opening' ); ?> - <?php the_field( 'sunday_closing' ); ?></span></p>
 
                     <a href="#book-table" class="btn btn-primary btn-sm w-md mt-4">Book a table</a>
                 </div>
@@ -29,7 +29,7 @@
                 <div class="col-md-6">
                     <h6 class="section-subtitle">The Great Story</h6>
                     <h3 class="section-title">Our Culinary Journey</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic illo a, aut, eum nesciunt obcaecati deserunt ipsam nostrum voluptate recusandae?</p>
+                    <p><?php the_field( 'culinary_journey' ); ?></p>
                 </div>
                 <div class="col-md-6 order-1 order-sm-first">
                     <div class="row">
