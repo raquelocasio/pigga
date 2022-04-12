@@ -27,6 +27,7 @@ add_theme_support('menus');
 register_nav_menus(
     array(
     'top_menu' => __('Top Menu', 'theme'),
+    'bottom_menu' => __('Bottom Menu', 'theme'),
     )
 );
 ?>
