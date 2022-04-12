@@ -407,7 +407,39 @@
             <h3 class="section-title mb-5 text-center">Testmonials</h3>
 
             <div class="row">
-                <div class="col-md-4 my-3 my-md-0">
+                
+                <!-- display testimonial custom post type -->
+            <?php
+                    $ourReviews = new WP_Query(
+                        array(
+                            'posts_per_page' => 4,
+                            'post_type' => 'testimonial',
+                            )
+                        );
+
+                        while ($ourReviews->have_posts()) {
+                            $ourReviews->the_post(); ?>
+
+                        <div class="col-md-4 my-3 my-md-0">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="media align-items-center mb-3">
+                                    <img class="mr-3" src="<?php the_field( 'photo' ); ?>" />
+                                        <div class="media-body">
+                                            <h6 class="mt-1 mb-0"><?php the_field( 'client_name' ); ?></h6>
+                                            <small class="text-muted mb-0"><?php the_field( 'job_title' ); ?></small>     
+                                        </div>
+                                    </div>
+                                    <p class="mb-0"><?php the_field( 'quote' ); ?></p>
+                                </div>
+                            </div>
+                        </div>
+
+                            <?php }
+                            ?>
+                
+            
+                <!-- <div class="col-md-4 my-3 my-md-0">
                     <div class="card">
                         <div class="card-body">
                             <div class="media align-items-center mb-3">
@@ -421,6 +453,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-4 my-3 my-md-0">
                     <div class="card">
                         <div class="card-body">
@@ -435,6 +468,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-4 my-3 my-md-0">
                     <div class="card">
                         <div class="card-body">
@@ -448,7 +482,8 @@
                             <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
+
             </div>
         </div>
     </section>
