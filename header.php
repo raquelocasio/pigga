@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with Pigga landing page.">
     <meta name="author" content="Devcrud">
-    <title>Pigga | HTML Free Bootstrap 4.3.x template</title>
+    <title>Pigga | Free WordPress theme</title>
+
+    <?php wp_head(); ?>
+
     <!-- font icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css"> -->
     <!-- Bootstrap + Pigga main styles -->
-	<link rel="stylesheet" href="assets/css/pigga.css">
+	<!-- <link rel="stylesheet" href="assets/css/pigga.css"> -->
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     
@@ -17,7 +20,7 @@
     <nav class="navbar nav-first navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="assets/imgs/navbar-brand.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page">
+                <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/navbar-brand.svg" alt="alt text here...">
             </a>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -60,7 +63,7 @@
     <!-- Page Header -->
     <header class="header">
         <div class="overlay">
-            <img src="assets/imgs/logo.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page" class="logo">
+            <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/logo.svg" alt="alt text here..." class="logo">
             <h1 class="subtitle">Welcome To Our Restaurant</h1>
             <h1 class="title">Really Fresh &amp; Tasty</h1> 
             <a class="btn btn-primary mt-3" href="#book-table">Book A Table</a> 

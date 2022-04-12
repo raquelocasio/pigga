@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row justify-content-between align-items-center text-center">
                 <div class="col-md-3 text-md-left mb-3 mb-md-0">
-                    <img src="assets/imgs/navbar-brand.svg" width="100" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page" class="mb-0">
+                    <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/navbar-brand.svg" width="100" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page" class="mb-0">
                 </div>
                 <div class="col-md-9 text-md-right">
                     <a href="#" class="px-3"><small class="font-weight-bold">Our Company</small></a>
