@@ -6,10 +6,20 @@
                     <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/navbar-brand.svg" width="100" alt="alt text here..." class="mb-0">
                 </div>
                 <div class="col-md-9 text-md-right">
-                    <a href="#" class="px-3"><small class="font-weight-bold">Our Company</small></a>
+
+                <?php wp_nav_menu(
+                    array(
+                        'theme_location' => 'bottom_menu',
+                        'container' => "div",
+                        'menu_class' => 'bottommenu',
+                    )
+                    );
+                ?>
+
+                    <!-- <a href="#" class="px-3"><small class="font-weight-bold">Our Company</small></a>
                     <a href="#" class="px-3"><small class="font-weight-bold">Our Location</small></a>
                     <a href="#" class="px-3"><small class="font-weight-bold">Help Center</small></a>
-                    <a href="components.html" class="pl-3"><small class="font-weight-bold">Components</small></a>
+                    <a href="components.html" class="pl-3"><small class="font-weight-bold">Components</small></a> -->
                 </div>
             </div>
         </div>
