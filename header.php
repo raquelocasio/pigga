@@ -41,10 +41,11 @@
                     array(
                         'theme_location' => 'top_menu',
                         'container' => "div",
+                        'menu_class' => 'topmenu',
                     )
                     );
                 ?>            
-                <ul class="navbar-nav mr-auto"> 
+                <!-- <ul class="navbar-nav mr-auto"> 
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About Us</a>
                     </li>
@@ -57,7 +58,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#testmonial">Testmonials</a>
                     </li>
-                </ul> 
+                </ul>  -->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a href="components.html" class="btn btn-primary btn-sm">Components</a>
