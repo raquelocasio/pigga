@@ -19,19 +19,14 @@ function enqueue_custom_scripts() {
                       
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_custom_scripts' );
-                
-// Add menus
+
+// Add menu support
 add_theme_support('menus');
 
-function register_nav_menus() {
-
-    $locations = array(
-           'top-menu' => __( 'Top Menu', 'theme' ),
-           'bottom-menu' => __( 'Bottom Menu', 'theme' ),
-        
-    );
-    register_nav_menus( $locations );
-
-}
-add_action( 'init', 'register_nav_menus' );
+// Create menu location
+register_nav_menus(
+    array(
+    'top_menu' => __('Top Menu', 'theme'),
+    )
+);
 ?>
