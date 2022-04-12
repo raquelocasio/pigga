@@ -10,10 +10,7 @@
     <!-- link to stylesheets -->
     <?php wp_head(); ?>
 
-    <!-- font icons -->
-    <!-- <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css"> -->
-    <!-- Bootstrap + Pigga main styles -->
-	<!-- <link rel="stylesheet" href="assets/css/pigga.css"> -->
+    
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     
@@ -48,20 +45,7 @@
                     )
                     );
                 ?>            
-                <!-- <ul class="navbar-nav mr-auto"> 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#service">Our Service</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#team">Our Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testmonial">Testmonials</a>
-                    </li>
-                </ul>  -->
+                
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a href="components.html" class="btn btn-primary btn-sm">Components</a>
