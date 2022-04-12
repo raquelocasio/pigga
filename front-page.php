@@ -1,3 +1,5 @@
+ <?php get_header(); ?>
+ 
  <!-- About Section -->
  <section id="about">
         <div class="container">
@@ -14,7 +16,7 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col">
-                            <img alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page" src="assets/imgs/about-1.jpg" class="w-100 rounded shadow">
+                            <img alt="alt text here..." class="w-100 rounded shadow">
                         </div>
                         <div class="col">
                             <img alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Pigga Landing page" src="assets/imgs/about-2.jpg" class="w-100 rounded shadow">
@@ -376,3 +378,5 @@
         </div>
     </section>
     <!-- End OF Book Table Section -->
+
+    <?php get_footer(); ?>
