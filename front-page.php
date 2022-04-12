@@ -354,7 +354,9 @@
                     <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/contact.jpg" alt="alt text here..." class="w-100 rounded shadow">
                 </div>
                 <div class="col-md-6">
-                    <form>
+
+                    <?php echo do_shortcode("[ninja_form id=2]"); ?>
+                    <!-- <form>
                         <div class="form-group">
                             <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Name">
                         </div>
@@ -369,7 +371,7 @@
                         </div>
                         <button type="submit" class="btn btn-primary btn-block">Book A Table</button>
                         <small class="form-text text-muted mt-3">We don't span customers. Check our <a href="#">Privacy Policy</a></small>
-                    </form>
+                    </form> -->
                 </div>
             </div>
         </div>
