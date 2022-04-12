@@ -210,7 +210,7 @@
 
                     <!-- display menu items custom post type where featured=false -->
                     <?php
-                    $featuredMenu = new WP_Query(
+                    $mainMenu = new WP_Query(
                         array(
                             'posts_per_page' => 8,
                             'post_type' => 'menuitem',
@@ -223,8 +223,8 @@
                             )
                         );
 
-                        while ($featuredMenu->have_posts()) {
-                            $featuredMenu->the_post(); ?>
+                        while ($mainMenu->have_posts()) {
+                            $mainMenu->the_post(); ?>
 
                         <div class="col-md-6 my-4">
                             <a href="#" class="pb-3 mx-3 d-block text-dark text-decoration-none border border-left-0 border-top-0 border-right-0">
@@ -321,13 +321,42 @@
     </section>
     <!-- End of Menu Section -->
 
-    <!-- Team Section -->
+    <!-- Chef Section -->
     <section id="team">
         <div class="container">
             <h6 class="section-subtitle text-center">Great Team</h6>
             <h3 class="section-title mb-5 text-center">Talented Chefs</h3>
             <div class="row">
+                
+            <!-- display chef custom post type -->
+            <?php
+                    $ourChefs = new WP_Query(
+                        array(
+                            'posts_per_page' => 8,
+                            'post_type' => 'chef',
+                            )
+                        );
+
+                        while ($ourChefs->have_posts()) {
+                            $ourChefs->the_post(); ?>
+
                 <div class="col-md-4 my-3">
+                    <div class="team-wrapper text-center">
+                    <img src="<?php the_field( 'photo' ); ?>" class="circle-120 rounded-circle mb-3 shadow"/>
+                        <h5 class="my-3"><?php the_field( 'name' ); ?></h5>
+                        <p><?php the_field( 'bio' ); ?></p>
+                        <h6 class="socials mt-3">
+                            <a href="<?php the_field( 'facebook' ); ?>" class="px-2"><i class="ti-facebook"></i></a>
+                            <a href="<?php the_field( 'twitter' ); ?>" class="px-2"><i class="ti-twitter"></i></a>
+                            <a href="<?php the_field( 'instagram' ); ?>" class="px-2"><i class="ti-instagram"></i></a>
+                        </h6>
+                    </div>
+                </div>
+
+                            <?php }
+                            ?>    
+            
+                <!-- <div class="col-md-4 my-3">
                     <div class="team-wrapper text-center">
                         <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/chef-1.jpg" class="circle-120 rounded-circle mb-3 shadow" alt="alt text here...">
                         <h5 class="my-3">Brian Scott</h5>
@@ -339,6 +368,7 @@
                         </h6>
                     </div>
                 </div>
+
                 <div class="col-md-4 my-3">
                     <div class="team-wrapper text-center">
                         <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/chef-2.jpg" class="circle-120 rounded-circle mb-3 shadow" alt="alt text here...">
@@ -351,6 +381,7 @@
                         </h6>
                     </div>
                 </div>
+                
                 <div class="col-md-4 my-3">
                     <div class="team-wrapper text-center">
                         <img src="<?php bloginfo('template_directory'); ?>/assets/imgs/chef-3.jpg" class="circle-120 rounded-circle mb-3 shadow" alt="alt text here...">
@@ -362,11 +393,12 @@
                             <a href="javascript:void(0)" class="px-2"><i class="ti-instagram"></i></a>
                         </h6>
                     </div>
-                </div> 
+                </div>  -->
+
             </div>
         </div>
     </section>
-    <!-- End of Team Section -->
+    <!-- End of Chef Section -->
 
     <!-- Testmonial Section -->
     <section id="testmonial" class="pattern-style-3">
