@@ -11,10 +11,17 @@
     padding-right: 10px;
 }
 
-/* style button for table reservation form */
+/* style submit button for table reservation form */
 input#nf-field-9 {
     width: 100%;
     background-color: #BC8C4C;
     color: white;
     border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input#nf-field-9:hover {
+    background-color: #a4783d;
+    border-color: #9b713a;
 }
