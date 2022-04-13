@@ -28,13 +28,13 @@
         <div class="container">
             <div class="row align-items-center text-center text-md-left">
                 <div class="col">
-                    <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>, <a href="https://raquelocasio.com" target="_blank">Raquel Ocasio</a>  All rights reserved </p> 
+                    <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>, <a href="https://www.devcrud.com" target="_blank">DevCrud</a>  All rights reserved </p> 
                 </div>
                 <div class="d-none d-md-block">
                     <h6 class="small mb-0">
-                        <a href="<?php the_field( 'facebook' ); ?>" class="px-2"><i class="ti-facebook"></i></a>
-                        <a href="<?php the_field( 'twitter' ); ?>" class="px-2"><i class="ti-twitter"></i></a>
-                        <a href="<?php the_field( 'instagram' ); ?>" class="px-2"><i class="ti-instagram"></i></a>
+                        <a href="javascript:void(0)" class="px-2"><i class="ti-facebook"></i></a>
+                        <a href="javascript:void(0)" class="px-2"><i class="ti-twitter"></i></a>
+                        <a href="javascript:void(0)" class="px-2"><i class="ti-instagram"></i></a>
                     </h6>
                 </div>
             </div>
